@@ -12,7 +12,7 @@ cp /usr/lib/modules/$(uname -r)/build/Module.symvers ./
 make oldconfig
 make EXTRAVERSION=`uname -r|sed "s/$KVER//"` modules_prepare
 cd drivers/platform/x86/
-patch -p1 < ../../../../thinkpad_acpi.2ndfan.patch/thinkpad_acpi.2ndfan.patch
+patch -p4 < ../../../../thinkpad_acpi.2ndfan.patch/thinkpad_acpi.2ndfan.patch
 cd ../../../
 make M=drivers/platform/x86
 xz -f drivers/platform/x86/thinkpad_acpi.ko
