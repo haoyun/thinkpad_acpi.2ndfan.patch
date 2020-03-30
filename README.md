@@ -1,7 +1,7 @@
 # Thinkpad ACPI 2nd fan control patch
 
-Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch
-Updated with patch from github user: lhofhansl
+Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch  
+Updated with patch from github user: lhofhansl  
 Based on patches found in discussion: https://github.com/vmatare/thinkfan/issues/58
 
 Patch for vanilla Linux kernel 5.4.28, 5.5.13 (tested) to enable 2nd fan control via sysfs.
