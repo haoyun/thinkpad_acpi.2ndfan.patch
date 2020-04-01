@@ -1,6 +1,6 @@
 # Thinkpad ACPI 2nd fan control patch
 
-Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch
+Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch  
 Updated with patch from github user: lhofhansl  
 Based on patches found in discussion: https://github.com/vmatare/thinkfan/issues/58  
 Credits where credits are due: https://github.com/civic9/thinkpad_acpi.2ndfan.patch/issues/4
