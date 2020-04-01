@@ -1,8 +1,10 @@
 # Thinkpad ACPI 2nd fan control patch
 
-Patch for vanilla Linux kernel 5.4.7 to enable 2nd fan control via sysfs.
-
+Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch  
+Updated with patch from github user: lhofhansl  
 Based on patches found in discussion: https://github.com/vmatare/thinkfan/issues/58
+
+Patch for vanilla Linux kernel 5.4.28, 5.5.13 (tested) to enable 1nd and 2nd fan as a single unit.
 
 2nd fan control is enabled for these models (bios version prefix):
 - Thinkpad P50 (N1E)
@@ -22,6 +24,6 @@ Patch in the file thinkpad\_acpi.2ndfan.patch.
 
 build\_install.sh is a helper script for Arch Linux to download the kernel sources, patch it, make and install module. Don't use without inspecting it and understanding what it does. The script probably won't be working on another distro.
 
-If everything goes ok you will see fan2\_input, pwm2, pwm2\_enable under /sys/devices/platform/thinkpad\_hwmon/hwmon/hwmon*/.
-
-Note: /proc/acpi/ibm/fan can't be used to separately control two fans. It is possible only via /sys/.
+The patch works with default thinkfan settings:
+fan control in /proc/acpi/ibm/fan.
+temperature inputs in /proc/acpi/ibm/thermal.
