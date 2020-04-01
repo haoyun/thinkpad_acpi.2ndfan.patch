@@ -2,7 +2,7 @@
 
 Forked from: https://github.com/civic9/thinkpad_acpi.2ndfan.patch
 Updated with patch from github user: lhofhansl  
-Based on patches found in discussion: https://github.com/vmatare/thinkfan/issues/58
+Based on patches found in discussion: https://github.com/vmatare/thinkfan/issues/58  
 Credits where credits are due: https://github.com/civic9/thinkpad_acpi.2ndfan.patch/issues/4
 
 Patch for vanilla Linux kernel 5.4.28, 5.5.13 (tested) to enable 1nd and 2nd fan as a single unit.
